@@ -45,6 +45,7 @@ a:hover {
 
 .row {
 	width: 890px;
+	margin-top: 15px;
 }
 
 .col-sm-4 {
@@ -84,10 +85,6 @@ a:hover {
 .col-sm-4:hover .info {
   bottom:0;
   opacity:1;
-}
-
-.row {
-	margin-top: 10px;
 }
 
 
