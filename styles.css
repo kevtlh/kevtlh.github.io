@@ -1,0 +1,177 @@
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 10pt;
+	color: #444444;
+	background: #ffffff;
+}
+
+.container {
+	max-width: 920px !important;
+	height: 100%;
+	margin: 0 auto;
+}
+
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+em {
+	color: red;
+	font-style: regular;
+}
+
+strong {
+	color: #c1c1c1;
+}
+
+h1 {
+	font-size: 12.5pt;
+	font-family: 'Roboto Thin', sans-serif;
+	line-height: 1.35;
+}
+
+a {
+	font-family: 'Space Mono', monospace;
+	font-size: 9pt;
+	color: #777777;
+	text-decoration: none;
+}
+
+a:hover { 
+    color: red;
+}
+
+.col-sm-4 {
+	position:relative !important;
+	overflow:hidden !important;
+}
+
+.col-sm-4 img {
+	display: block !important;
+	float: left !important;
+}
+
+.col-sm-4 p {
+	float: right !important;
+	color: #ffffff;
+	margin-top: 35px;
+	margin-right: 15px;
+	font-size: 11px;
+}
+
+.info {
+  position:absolute;
+  width:100%;
+  height: 60px;
+  margin-top: 50px;
+  border-right: solid 15px white;
+  border-left: solid 15px white;
+  margin-left: -15px;
+  background:red;
+  bottom:-100px;
+  opacity:1;
+  transition:bottom 0.3s, opacity 0.3s;
+}
+
+.col-sm-4:hover .info {
+  bottom:0;
+  opacity:1;
+}
+
+.row {
+	margin-top: 10px;
+}
+
+
+.logo {
+	margin-top: 20px;
+	margin-left: -5px;
+}
+
+.arrow {
+	margin-top: -20px;
+	float: right;
+	width: auto;
+}
+
+.col1 {
+	float: left;
+	line-height: 1.4;
+	width: 180px;
+	color: #444444;
+}
+
+.col2 {
+	float: left;
+	line-height: 1.4;
+	width: 290px;
+	color: #c1c1c1;
+}
+
+.col2 a{
+	color: #c1c1c1;
+}
+
+.col3 {
+	float: right;
+	line-height: 1.4;
+	font-size: 9pt;
+	width: 420px;
+	margin-top: 6px;
+}
+
+.col4 {
+	float: right;
+	line-height: 1.5;
+	font-size: 8pt;
+	width: 210px;
+	margin-top: 20px;
+}
+
+.col4 img{
+	width: 100%;
+}
+
+.thumb {
+	width: 100%;
+}
+
+.wide {
+	float: left;
+	width: 400px;
+	line-height: 1.3;
+	margin-top: -20px;
+	color: #777777;
+}
+
+
+.carousel {
+	width: 100%;
+}
+
+.carousel-inner {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+ .profile {
+ 	position: absolute;
+ 	bottom: 0;
+ 	float: left;
+ 	width: 400px;
+ 	margin-top: -20px;
+ 	margin-left: -20px;
+ }
+
+  .profile img{
+ 	width: 100%;
+ }
